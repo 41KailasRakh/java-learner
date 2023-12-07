@@ -1,0 +1,17 @@
+Date: 06 Dec 2023
+=====================
+1] Spring Core:
+	Bean Life Cycle
+	Dependency Injection
+	Inversion of Control
+	Bean Factory and Application Context
+2] Java8:
+	Solve Program using java8 (Minimum 2)
+	groupingBy in details
+	Interview Questions 
+	Default methods
+
+3] Spring Boot Security and OAuth2 in depth from scatch
+	Go through Udemy course ( min 2hrs with practice) 
+
+=================================================================

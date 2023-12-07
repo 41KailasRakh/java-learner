@@ -1,0 +1,16 @@
+Why Lambda Expressions are introduced in Java8?
+
+List out the Functional Interfaces witch Takes nothing and returns nothing
+ 1] Runnable 
+
+List out the Functional Interfaces witch Takes nothing and return somthing
+
+Why variables are final or effectively final in Lambda?
+
+What is the Variable Capture or Lambda Capture ?
+
+What is the difference between Lambda expression and Anonymous class?
+
+What is short-circuiting operations? What are the different operations?
+
+
