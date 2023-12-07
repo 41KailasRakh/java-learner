@@ -1,0 +1,16 @@
+Solving Real Time Queries Using Java 8 Features -Employee Management System
+https://javaconceptoftheday.com/solving-real-time-queries-using-java-8-features-employee-management-system/
+
+Real Time Queries On employeeList
+Task 1] How many male and female employees are there in the organization?
+-> Expected output would be like
+   - Male employees <Number of male employees>
+   - Female employees <Number of female employee>
+-> We can create Map object to group the employee based on gender
+  Approch :
+    - Make a stream out of employeeList to get the benifits of
+     predifined operation of streams using lambdas
+    - Once we have the stream follow below operations
+     1] groupby function where we can spcify key as a gender
+     2] Then we can use counting funtion lets check it out
+  Utility class name would be EmployeeCounting

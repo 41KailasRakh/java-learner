@@ -1,0 +1,7 @@
+Streams
+========
+
+How the order is maintained while processing the Collection?
+-> Sequential vs Parallel vs Unordered
+
+Stream operations: stateless vs. stat?

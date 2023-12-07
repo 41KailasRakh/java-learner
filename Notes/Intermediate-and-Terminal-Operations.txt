@@ -1,0 +1,27 @@
+Stream operations
+=================
+ - The Stream interface in java.util.stream.Stream defines many operations. 
+ - They can be classified into two categories.
+     - You can see two groups of operations:  filter, map, and limit can be connected together to form a pipeline.  collect causes the pipeline to be executed and closes it.
+  - Stream operations that can be connected are called intermediate operations
+  - Operations that close a stream are called terminal operations.
+
+Intermediate operations
+========================
+  - Intermediate operations such as filter or sorted return another stream as the return type. 
+  	- This allows the operations to be connected to form a query. 
+	- What’s important is that intermediate operations don’t perform any processing until a terminal operation
+	  is invoked on the stream pipeline—they’re lazy. 
+	- This is because intermediate operations can usually be merged and processed into a single pass by the Terminal 
+	  operation. 
+
+Terminal Operations
+-==================
+  - Terminal operation produces result from stream pipeline. The result is any non stream value such as List, an Integer
+    or even void. 
+
+Working with streams
+=====================
+To summarize, working with streams in general involves three items:  A data source (such as a collection) to perform a query on
+ A chain of intermediate operations that form a stream pipeline
+ A terminal operation that executes the stream pipeline and produces a res

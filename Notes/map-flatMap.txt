@@ -1,0 +1,3 @@
+map vs flatMap?
+
+What is map-reduce pattern ?
